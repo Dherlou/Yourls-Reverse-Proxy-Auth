@@ -8,6 +8,11 @@ Author: Dherlou
 Author URI: https://github.com/Dherlou
 */
 
+// No direct call
+if (!defined('YOURLS_ABSPATH')) {
+    die();
+}
+
 class Reverse_Proxy_Auth {
 
     /* configuration */
